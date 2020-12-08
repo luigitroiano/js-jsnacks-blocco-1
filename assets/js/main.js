@@ -285,6 +285,19 @@
 // elementi da uno e dall’altro
 // es. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
 
+// var lettere = ['a','b','c'];
+// var numeri = [1,2,3];
+// var lettereNumeriMix = [];
+
+// function fusion(arr1, arr2, arr1Arr2Mix) {
+//   for (let i = 0; i < arr1.length && i < arr2.length; i++) {
+//     arr1Arr2Mix.push(arr1[i]);
+//     arr1Arr2Mix.push(arr2[i]);
+//   }
+  
+// };
+// fusion(lettere, numeri, lettereNumeriMix);
+// console.log(lettereNumeriMix);
 
 // JSnack 5
 // Scrivi una funzione che accetti tre argomenti:
