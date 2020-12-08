@@ -202,6 +202,82 @@
 // Infine stampa separatamente quanto pesano i due gruppi
 // di zucchine
 
+// var arrayZucchine = [
+//   {
+//     varieta: 'Alpha',
+//     peso: 1,
+//     lunghezza: 12,
+//   },
+//   {
+//     varieta: 'Beta',
+//     peso: 10,
+//     lunghezza: 21,
+//   },
+//   {
+//     varieta: 'Gamma',
+//     peso: 2,
+//     lunghezza: 13,
+//   },
+//   {
+//     varieta: 'Delta',
+//     peso: 9,
+//     lunghezza: 32,
+//   },
+//   {
+//     varieta: 'Epsilon',
+//     peso: 3,
+//     lunghezza: 14,
+//   },
+//   {
+//     varieta: 'Zeta',
+//     peso: 8,
+//     lunghezza: 43,
+//   },
+//   {
+//     varieta: 'Eta',
+//     peso: 4,
+//     lunghezza: 5,
+//   },
+//   {
+//     varieta: 'Theta',
+//     peso: 7,
+//     lunghezza: 54,
+//   },
+//   {
+//     varieta: 'Iota',
+//     peso: 5,
+//     lunghezza: 6,
+//   },
+//   {
+//     varieta: 'Kappa',
+//     peso: 6,
+//     lunghezza: 65,
+//   }
+// ];
+// var zucchineCorte = [];
+// var zucchineLunghe = [];
+// for (let i = 0; i < arrayZucchine.length; i++) {
+//   if (arrayZucchine[i].lunghezza < 15) {
+//     zucchineCorte.push(arrayZucchine[i]);
+//   } else {
+//     zucchineLunghe.push(arrayZucchine[i]);
+//   }
+// };
+// console.log(zucchineCorte);
+// console.log(zucchineLunghe);
+
+// sumZucchineCorte = 0;
+// for (var x = 0; x < zucchineCorte.length; x++) {
+//   sumZucchineCorte = sumZucchineCorte + zucchineCorte[x].peso;
+// }
+// console.log(sumZucchineCorte);
+
+// sumZucchineLunghe = 0;
+// for (var y = 0; y < zucchineLunghe.length; y++) {
+//   sumZucchineLunghe = sumZucchineLunghe + zucchineLunghe[y].peso;
+// }
+// console.log(sumZucchineLunghe);
+
 
 // JSnack 4
 // Scrivi una funzione che fonda due array (con lo stesso
