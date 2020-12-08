@@ -125,6 +125,64 @@
 // indicando per ognuna varietà, peso e lunghezza.
 // Calcola quanto pesano tutte le zucchine.
 
+var arrayZucchine = [
+  {
+    varieta: 'Alpha',
+    peso: 1,
+    lunghezza: 12,
+  },
+  {
+    varieta: 'Beta',
+    peso: 10,
+    lunghezza: 21,
+  },
+  {
+    varieta: 'Gamma',
+    peso: 2,
+    lunghezza: 23,
+  },
+  {
+    varieta: 'Delta',
+    peso: 9,
+    lunghezza: 32,
+  },
+  {
+    varieta: 'Epsilon',
+    peso: 3,
+    lunghezza: 34,
+  },
+  {
+    varieta: 'Zeta',
+    peso: 8,
+    lunghezza: 43,
+  },
+  {
+    varieta: 'Eta',
+    peso: 4,
+    lunghezza: 45,
+  },
+  {
+    varieta: 'Theta',
+    peso: 7,
+    lunghezza: 54,
+  },
+  {
+    varieta: 'Iota',
+    peso: 5,
+    lunghezza: 56,
+  },
+  {
+    varieta: 'Kappa',
+    peso: 6,
+    lunghezza: 65,
+  }
+];
+console.log(arrayZucchine[3].peso);
+sum = 0;
+for (var i = 0; i < arrayZucchine.length; i++) {
+  sum = sum + arrayZucchine[i].peso;
+}
+console.log(sum);
 
 // JSnack 2
 // Scrivi una funzione che accetti una stringa come
