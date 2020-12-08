@@ -305,3 +305,15 @@
 // massimo quanto il numero di elementi dell’array).
 // La funzione ritornerà un nuovo array con i valori che
 // hanno la posizione compresa tra “a” e “b”
+// var newArray = [];
+// var array = ['k','j','c','d','e','f','g','h','w'];
+// var a = 3;
+// var b = 8;
+// function myFunction() {
+//   for (var i = a; i < b; i++) {
+//     newArray.push(array[i]);
+//   };
+//   return newArray;
+// };
+// myFunction();
+// console.log(newArray);
